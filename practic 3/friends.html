@@ -4,6 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title>Колеги</title>
+   <style>
+    tbody tr:nth-child(odd) td{
+        background-color:gray;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    table td,th{
+        border: solid black 2px;
+        text-align: center;
+        padding 2px;
+    }
+</style>
 </head>
 <body>
 <h1>Друзі Бегея Олега Богдановича</h1>
@@ -14,13 +27,16 @@
 
 <table>
     <caption>Друзі</caption>
-    <tr>
+    <thead>
+     <tr>
         <th>Прізвище</th>
         <th>Ім'я</th>
         <th>Дата народження</th>
         <th>Адреса проживання</th>
         <th>Контактний телефон</th>
-    </tr>
+     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>Федишин</td>
         <td>Євген</td>
@@ -49,5 +65,7 @@
         <td>с.Петранка</td>
         <td>0985045180</td>
     </tr>
+    </tbody>
 </table>
 </body>
+</html>

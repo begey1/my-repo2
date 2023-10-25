@@ -1,20 +1,32 @@
-<!DOCTYPE html>
+<!DOCKTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Сьогодення</title>
-
+ <meta chasrset="utf-8">
+ <title>Сьогодення</title>
  <style>
-   ul#class, li:nth-child(odd){
-  background-color:gray;
-   }
 
-
-
-
+ul.class > li:nth-child(odd){
+        background-color: gray;
+    }
+    ul.class > li:nth-child(odd) li:nth-child(odd){
+        background-color: white;
+    }
+    ul.class > li:nth-child(even){
+        background-color: white;
+    }
+    ul.class > li:nth-child(even) li:nth-child(odd){
+        background-color: gray;
+    }
+    ol.class2 > li:nth-child(4){
+        background-color:aqua;
+    }
+    ol.class2 > li:nth-child(3):hover, ol.secondlist > li:nth-child(5):hover{
+        cursor: pointer;
 
 
  </style>
+  
+  
 
 
 
@@ -61,7 +73,7 @@
 </article>
 <article>
 <h2>Мій улюблений десерт</h2>
-<ol>
+<ol id="class2">
     <li>Приготувати тісто для коржів</li>
         <ol>
             <li>Натерти 100г масла</li>

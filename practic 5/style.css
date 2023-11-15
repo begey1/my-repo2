@@ -8,6 +8,15 @@
     font-size:40px;
     margin: bottom 22px;
 }
+.span1, .span2, .span3{
+    float:right;
+    border:2px solid black;
+    display:block;
+    width:80px;
+    text-align:center;
+
+
+}
 
 
 

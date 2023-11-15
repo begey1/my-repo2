@@ -8,23 +8,23 @@
     font-size:40px;
     margin: bottom 22px;
 }
-.span1, .span2, .span3{
+.anm1, .anm2, .anm3{
     float:right;
     border:2px solid black;
     display:block;
     width:80px;
     text-align:center;
 }
-    .span1{
+    .anm1{
         background-color:orange;
     }
 
-    .span2{
+    .anm2{
         background-color:maroon;
         color:white;
     }
 
-    .span3{
+    .anm3{
         background-color:pink;
     }
 

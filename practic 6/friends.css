@@ -1,0 +1,34 @@
+tbody tr:nth-child(odd) td{
+    background-color:gray;
+}
+table{
+    border-collapse: collapse;
+}
+table td,th{
+    border: solid black 2px;
+    text-align: center;
+    padding: 2px;
+}
+
+h1.cent{
+    text-align:center;
+    font-size:22px;
+}
+
+a.ital{
+    font-style:italic;
+}
+
+h2.cent{
+    text-align:center;
+}
+
+th{
+    text-align:center;
+    background-color:green;
+    color:aliceblue;
+    font-weight:bold;
+}
+th:nth-child(5),td:nth-child(5){
+    text-align:end;
+}

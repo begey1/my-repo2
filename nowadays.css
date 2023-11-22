@@ -23,7 +23,6 @@
     flex-basis: 100%;
    }
  }
- 
     /* small devices */
    @media (max-width: 768px)  {
      .col-sm-12 {

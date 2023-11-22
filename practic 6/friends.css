@@ -1,27 +1,27 @@
 /* Large devices */
 @media (min-width: 992px) {
-    .col-lg-4 {
-     flex-basis: 33.3%;
+    .bag-t th{
+     font-size: 1.3em;
     }
-    .col-lg-6{
-        flex-basis: 50%;
+    .bag-nott td{
+        font-size: 1.2em;
     }
    }
  
    /* Medium devices */
   @media (min-width: 768px) and (max-width: 992px) {
-   .col-md-6 {
-   flex-basis: 50%;
+   .md-t th{
+   font-size: 1.2em;
    }
-   .col-md-12{
-    flex-basis: 100%;
+   .md-nott td{
+    font-size: 1.1em;
    }
  }
  
     /* small devices */
    @media (max-width: 768px)  {
-     .col-sm-12 {
-     flex-basis: 100%;
+     .sm-t th{
+     font-size: 1.1em;
      }
    }
 
@@ -46,7 +46,7 @@ table td,th{
     padding: 2px;
 }
 
-h1.cent{
+h1{
     text-align:center;
     font-size:22px;
 }
@@ -55,7 +55,7 @@ a.ital{
     font-style:italic;
 }
 
-h2.cent{
+h2{
     text-align:center;
 }
 

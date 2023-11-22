@@ -1,0 +1,84 @@
+ul.links a{
+    text-decoration: none;
+}
+ul.links li{
+    list-style: none;
+    width:130px;
+    border: solid rgb(255, 94, 0) 2px;
+    background-color: blue;
+    margin-bottom: 2px;
+}
+
+ul.links a:link{
+    color:yellow;
+}
+ul.links a:visited{
+    color:lightseagreen;
+}
+ul.links li:hover{
+    background-color: magenta;
+}
+ul.links li:hover a{
+    color:lime;
+}
+ul.links li:active{
+    background-color: yellow;
+}
+ul.links li:active a{
+    color: blue;
+}
+ 
+#saction1 >p {
+    background-color: rgb(9, 255, 0);
+    color:red;
+}
+#saction2> p{
+    background-color: rgb(70, 43, 226);
+    color:rgb(255, 115, 0);
+}
+#saction3> p{
+    background-color: yellow;
+    color:purple;
+}
+#saction4>p{
+    background-color: black;
+    color:white;
+}
+ #saction5 >p{
+    background-color: rgb(7, 56, 7);
+    color:rgb(244, 245, 179);
+}
+
+h1#top{
+    text-align:center;
+    font-size:22px;
+}
+
+a.ital{
+    font-style:italic;
+}
+
+h3.cent{
+    text-align:center;
+}
+
+
+
+#saction1,#saction2,#saction3,#saction4,#saction5{
+    font-size:19.2px ;
+}
+
+#saction1>h3,#saction2>h3,#saction3>h3,#saction4>h3,#saction5>h3{
+    font-size:23.04px;
+}
+
+a.weig{
+    font-weight:bold;
+}
+
+
+
+
+a.upp{
+    text-transform:uppercase;
+} 

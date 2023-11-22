@@ -1,3 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 100%;
+}
+
+/* Large devices*/
+@media (min-width: 992px) {
+  .col-lg-4{
+      flex-basis: 33.3%;
+  }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-md-6{
+      flex-basis: 50%;
+  }
+  .col-md-12{
+      flex-basis: 100%;
+  }
+}
+/* Small devices */
+@media (max-width: 768px) {
+  .col-sm-12{
+      flex-basis: 100%;
+  }
+}
+
 h1.cent{
     text-align:center;
     font-size:20px;

@@ -49,8 +49,8 @@
         cursor: pointer;
     }
  
-    h1{
-        text-align:center;
+    h1.cent{
+      text-align:center;
         font-size:22px;
     }
 
@@ -58,7 +58,7 @@
         font-style:italic;
     }
 
-    h2{
+    h2.cent{
         text-align:center;
     }
 

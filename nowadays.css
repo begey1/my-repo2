@@ -6,9 +6,7 @@
 
 /* Large devices*/
 @media (min-width: 992px) {
-    .col-lg-4{
-        flex-basis: 33.3%;
-    }
+    
     .col-lg-6{
         flex-basis: 50%;
     }

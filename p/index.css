@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.block{
+.block {
     background-color: aqua;
     display: flex;
 }

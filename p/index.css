@@ -1,6 +1,8 @@
 .row {
-    margin-left:10px;
-    margin-right:10px;
-    background-color: rgb(0, 255, 200);
+    width: 100%;
+}
 
+.block{
+    background-color: aqua;
+    display: flex;
 }

@@ -13,6 +13,7 @@
     border: 1px solid black;
     float: right;
     display:block;
+    font-family: 'Roboto', sans-serif;
 }
 
 .laug {
@@ -28,3 +29,4 @@
 .block {
     padding: 10px;
 }
+

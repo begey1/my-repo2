@@ -11,3 +11,9 @@
 .anm1, .anm2, .anm3 {
     border: 1px solid black;
 }
+
+.laug {
+    text-align: center;
+    font-size: 30px;
+    margin: bottom 20px;
+}

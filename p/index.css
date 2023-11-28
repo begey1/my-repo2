@@ -10,6 +10,8 @@
 
 .anm1, .anm2, .anm3 {
     border: 1px solid black;
+    float: right;
+    display: block;
 }
 
 .laug {

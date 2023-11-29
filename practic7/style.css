@@ -34,19 +34,23 @@ h1, h2, h3, h4 {
 }
 
 #block1 {
-    background-color: #f0ff99; 
+    background-color: #f0ff99;
+    font-family: 'Roboto', sans-serif; 
 }
 
 #block2 {
-    background-color: #1c67b3; 
+    background-color: #1c67b3;
+    font-family: 'Roboto', sans-serif; 
 }
 
 #block3 {
     background-color: #ccffe6;
+    font-family: 'Roboto', sans-serif;
 }
 
 #block4 {
-    background-color: #f73333; 
+    background-color: #f73333;
+    font-family: 'Roboto', sans-serif; 
 }
 
 h4 {

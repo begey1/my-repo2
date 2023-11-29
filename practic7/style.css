@@ -63,13 +63,13 @@ h4 {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .block {
         width: 100%;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
     #block1, #block2 {
         width: 48%;
         display: inline-block;
@@ -82,7 +82,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
     #block1, #block2, #block3 {
         width: 30%;
         display: inline-block;
@@ -95,7 +95,7 @@ h4 {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media (min-width: 1201px) {
     .block {
         width: 23%;
         display: inline-block;

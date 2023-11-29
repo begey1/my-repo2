@@ -66,7 +66,7 @@ h4 {
     margin-top: 20px;
 }
 
-table td,th{
+table td,tr{
     border: solid black 2px;
     padding: 2px;
 }

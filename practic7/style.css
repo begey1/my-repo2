@@ -49,7 +49,7 @@ h4 {
     padding: 10px;
     border-radius: 6px;
     width: fit-content;
-    display: inline-block;
+    display: flex;
 }
 
 .image-link {
@@ -76,7 +76,7 @@ table td,tr{
 @media (min-width: 769px) and (max-width: 992px) {
     #block1, #block2 {
         width: 50%;
-        display: inline-block;
+        display: flex;
         margin-right: 2%;
     }
 
@@ -89,7 +89,7 @@ table td,tr{
 @media (min-width: 993px) and (max-width: 1200px) {
     #block1, #block2, #block3 {
         width: 33.33%;
-        display: inline-block;
+        display: flex;
         margin-right: 2%;
     }
 

@@ -84,7 +84,7 @@ table td,tr{
 
 @media (min-width: 769px) and (max-width: 992px) {
     #block1, #block2 {
-        width: 48%;
+        width: 50%;
         
         margin-right: 2%;
     }
@@ -97,7 +97,7 @@ table td,tr{
 
 @media (min-width: 993px) and (max-width: 1200px) {
     #block1, #block2, #block3 {
-        width: 30%;
+        width: 33.33%;
         
         margin-right: 2%;
     }
@@ -110,7 +110,7 @@ table td,tr{
 
 @media (min-width: 1201px) {
     .block {
-        width: 23%;
+        width: 25%;
         
         margin-right: 2%;
     }

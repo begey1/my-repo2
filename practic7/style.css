@@ -34,19 +34,19 @@ h1, h2, h3, h4 {
 }
 
 #block1 {
-    background-color: #f0ff99; /* Колір фону для блока 1 */
+    background-color: #f0ff99; 
 }
 
 #block2 {
-    background-color: #1c67b3; /* Колір фону для блока 2 */
+    background-color: #1c67b3; 
 }
 
 #block3 {
-    background-color: #ccffe6; /* Колір фону для блока 3 */
+    background-color: #ccffe6;
 }
 
 #block4 {
-    background-color: #f73333; /* Колір фону для блока 4 */
+    background-color: #f73333; 
 }
 
 h4 {

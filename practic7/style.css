@@ -64,11 +64,13 @@ h4 {
 .image-link {
     text-align: center;
     margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 table td,tr{
     border: solid black 2px;
     padding: 2px;
+
 }
 
 
